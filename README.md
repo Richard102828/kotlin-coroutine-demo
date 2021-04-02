@@ -5,13 +5,13 @@
 
 ## demo说明
 
-kotlin协程demo，kotlin coroutine + mvvm + okhttp
+kotlin协程demo，kotlin coroutine + mvvm + okhttp，内部提供mvc与mvvm的不同实现，换下主活动在打包即可 
 
 * 界面如下，点击按钮开始进行网络请求，同时，改变button状态，为倒计时效果，button下方的数据也开始递增
 
-![Screenshot_2021-04-02-14-09-22-796_com.example.ko](/Users/bytedance/AndroidProjects/KotlinTestDemo/kotlin-coroutine-demo/Screenshot_2021-04-02-14-09-22-796_com.example.ko.jpg)
+![Screenshot_2021-04-02-14-09-22-796_com.example.ko](Screenshot_2021-04-02-14-09-22-796_com.example.ko.jpg)
 
-![Screenshot_2021-04-02-14-09-30-279_com.example.ko](/Users/bytedance/AndroidProjects/KotlinTestDemo/kotlin-coroutine-demo/Screenshot_2021-04-02-14-09-30-279_com.example.ko.jpg)
+![Screenshot_2021-04-02-14-09-30-279_com.example.ko](Screenshot_2021-04-02-14-09-30-279_com.example.ko.jpg)
 
 ---
 
