@@ -286,7 +286,7 @@ fun main() = runBlocking {
 
 * 可以这样理解：挂起函数将协程分为了多个Continuation，如下图
 
-  ![kotlin协程挂起点的理解](http://m.qpic.cn/psc?/V506ZavZ24MSFB3OyAT51zX1xi0wNZXV/45NBuzDIW489QBoVep5mcVpiN6M*UednHFnH.5v6oBgaGavKJvVoihzzPl37ZmN1vPZlBF8yUDvzfw3ZCWuiad1x7*BwzVOvt2CFYwkdzC4!/b&bo=MgYjBAAAAAADFyE!&rf=viewer_4)
+  ![kotlin协程挂起点的理解](kotlin协程状态机逻辑的理解.png)
 
 ## 协程的执行原理
 
@@ -528,7 +528,7 @@ fun main() = runBlocking {
 
 ## 常见的类
 
-![Kotlin常见类结构图](https://feishu.processon.com/feishu/view/link/605af20ae4b03246593ccb8f)
+![Kotlin常见类结构图](Kotlin协程常见类结构图.png)
 
 * **CoroutineScope**（接口）：协程的作用域，只包含了一个CoroutineContext。分了一下，可以说有三种作用域
 
